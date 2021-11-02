@@ -1,3 +1,5 @@
+# 说明
+此仓库为skywind3000的仓库fork，主要用于自用
 # 前言
 轻量级 Vim 配置框架，全中文注释，这既是一份合理的轻量级配置，更是一份简明教程。话说，网上的 Vim 配置多的数不过来，这里又做一个干嘛？这些配置都有一些问题：
 
@@ -22,7 +24,7 @@
 
 ```bash
 cd ~/.vim
-git clone https://github.com/skywind3000/vim-init.git
+git clone https://github.com/Mika-Lahtinen/vim-init.git
 ```
 
 然后创建你的 `~/.vimrc` 文件，里面只有一句话：
