@@ -23,6 +23,9 @@ set bs=eol,start,indent
 " 自动缩进
 set autoindent
 
+" 智能化缩进
+set smartindent
+
 " 打开 C/C++ 语言缩进优化
 set cindent
 
