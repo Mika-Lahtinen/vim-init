@@ -531,6 +531,9 @@ Plug 'NLKNguyen/papercolor-theme'
 " Coc.nvim 支持
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Elixir支持
+Plug 'elixir-editors/vim-elixir'
+
 "----------------------------------------------------------------------
 " 结束插件安装
 "----------------------------------------------------------------------
