@@ -531,8 +531,11 @@ Plug 'NLKNguyen/papercolor-theme'
 " Coc.nvim 支持
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Elixir支持
+" Elixir 支持
 Plug 'elixir-editors/vim-elixir'
+
+" Clang 格式化支持
+Plug 'rhysd/vim-clang-format'
 
 "----------------------------------------------------------------------
 " 结束插件安装
@@ -640,4 +643,7 @@ let g:ycm_filetype_whitelist = {
 " format on enter, <cr> could be remapped by other vim plugin
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
                               \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
-
+"----------------------------------------------------------------------
+" Clang-format 配置
+"----------------------------------------------------------------------
+let g:clang_format#auto_format_on_insert_leave = 1
