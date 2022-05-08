@@ -542,6 +542,9 @@ Plug 'preservim/vim-markdown'
 Plug 'godlygeek/tabular'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
+" Racket 语言支持
+Plug 'wlangstroth/vim-racket'
+
 "----------------------------------------------------------------------
 " 结束插件安装
 "----------------------------------------------------------------------
