@@ -537,6 +537,11 @@ Plug 'elixir-editors/vim-elixir'
 " Clang 格式化支持
 Plug 'rhysd/vim-clang-format'
 
+" Markdown 支持
+Plug 'preservim/vim-markdown'
+Plug 'godlygeek/tabular'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
 "----------------------------------------------------------------------
 " 结束插件安装
 "----------------------------------------------------------------------
@@ -646,4 +651,4 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 "----------------------------------------------------------------------
 " Clang-format 配置
 "----------------------------------------------------------------------
-let g:clang_format#auto_format_on_insert_leave = 1
+"let g:clang_format#auto_format_on_insert_leave = 1
