@@ -543,7 +543,7 @@ Plug 'godlygeek/tabular'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " Racket 语言支持
-Plug 'wlangstroth/vim-racket'
+Plug 'benknoble/vim-racket'
 
 "----------------------------------------------------------------------
 " 结束插件安装
@@ -654,4 +654,4 @@ inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
 "----------------------------------------------------------------------
 " Clang-format 配置
 "----------------------------------------------------------------------
-"let g:clang_format#auto_format_on_insert_leave = 1
+let g:clang_format#auto_format_on_insert_leave = 1
